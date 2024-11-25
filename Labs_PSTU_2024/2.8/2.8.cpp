@@ -6,7 +6,7 @@ int main()
 {
 	int n;
 	cin >> n;
-	if (n <= 2 ) { cout << "Число меньше или равно 2" << endl; return 0; }
+	if (n <= 2 ) { cout << "Ошибка" << endl; return 0; }
 	else 
 	{
 		for (int i = 0; i < n; i++)

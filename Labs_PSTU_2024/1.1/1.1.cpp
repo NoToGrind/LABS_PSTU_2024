@@ -7,7 +7,7 @@ int main()
 	int a, b, c, m;
 	cin >> a >> b >> c;
 	if (a >= b) m = a;
-	else m = c;
+	else m = b;
 	if (c > m) m = c;
     cout << m;
 
