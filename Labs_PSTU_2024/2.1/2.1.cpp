@@ -7,7 +7,7 @@ int main()
 	int n;
     int sum = 0;
 	cin >> n;
-	if (n <= 0) cout << "Нельзя посчитать сумму" << endl;
+	if (n <= 0) {cout << "Ошибка" << endl; return 0;}
     else
 	    for (int i = 1; i <= n; i++) sum += i;
 	    cout << sum << endl;
