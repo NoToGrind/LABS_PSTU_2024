@@ -66,4 +66,12 @@
 
 4.ptr ☑                     
 
-5.ptr ☑                    
+5.ptr ☑    
+
+eq_half ☑
+
+eq_newton ☑
+
+eq_iteration ☑
+
+recursion ☑
